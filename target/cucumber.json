@@ -1,0 +1,126 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2937226400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ChangeColors.getUrl()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Set SkyBlue Background\" button exists",
+        "description": "",
+        "id": "user-able-to-change-color-background;set-skyblue-background\"-button-exists",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1398194300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "usen on the homepage",
+            "match": {
+              "location": "ChangeColors.usen_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90718500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user able to clik",
+            "match": {
+              "location": "ChangeColors.user_able_to_clik()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@FirstScenario"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1824482000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ChangeColors.getUrl()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "White Background Change",
+        "description": "",
+        "id": "user-able-to-change-color-background;white-background-change",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 910260600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "usen on the homepage",
+            "match": {
+              "location": "ChangeColors.usen_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94967600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"Set SkyWhite Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyWhite Background",
+                  "offset": 1
+                }
+              ],
+              "location": "ChangeColors.button_exists(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@SecondScenario"
+          }
+        ]
+      }
+    ],
+    "name": "user able to change color background",
+    "description": "",
+    "id": "user-able-to-change-color-background",
+    "keyword": "Feature",
+    "uri": "features/Exam.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@changecolor"
+      }
+    ]
+  }
+]
